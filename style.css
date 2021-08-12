@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.left{
+    display: inline block;
+    color:white;
+    position: absolute;
+    left: 34px;
+    top: 14px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.left img{
+    width: 115px;
+    height: 75px;
+    filter: drop-shadow(8px 8px 10px grey);
+    border-radius: 84px;
+    border-left: 100px;
+
+}
+.left img:hover{
+    color:thistle;
+    text-decoration:dashed;
+    padding: 15px 18px;
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    display: block;
+    color: aliceblue;
+    margin: 20px auto;
+    width: 46%;
+   
+}
+.right{
+    display: inline block;
+    color: aliceblue;
+    position: absolute;
+    right: 34px;
+    top: 14px;
+    font-size:35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 24px;
+    font-display:uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 14px;
+}
+.navbar li a:hover{
+    color:rgb(25, 24, 26);
+    text-decoration:double;
+    padding: 25px 28px;
+}
+.btn{
+    margin:0px 13px;
+    background-color:rgb(68, 40, 68);
+    color: whitesmoke;
+    padding: 9px 19px;
+    border-radius: 10px;
+    filter: drop-shadow(8px 8px 10px grey);
+    font-size:15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(124, 117, 121);
+    text-decoration:dotted;
+    padding: 14px 29px;
+}
+.container{
+    
+    margin: 84px 76px;
+    padding: 52px 41px;
+    width: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color:aliceblue;
+}
+.formgroup input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    margin:9px auto;
+    padding: 14px 19px;
+    border-radius: 67px;
+    text-align: center;
+    border: 2px lightcoral;
+    text-decoration:none ;
+    outline: none;
+    transition: 0.35secs;
+
+}
+.container h1{
+    text-align:justify;
+}
+.formgroup input:hover{
+    text-decoration:dashed;
+    padding: 14px 12px;
+    background-color: rgb(146, 137, 142);
+}
+header::before{
+    background: url(/image/scott-webb-U5kQvbQWoG0-unsplash.jpg);
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9;
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
+.end{
+    background-color: black;
+    padding: 12px;
+    font-size: 19px;
+    color: aliceblue;
+}
+
+
